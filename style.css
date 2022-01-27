@@ -23,7 +23,7 @@ main{
 
 article{
     background-color: rgb(45, 48, 236);
-    height: 350px;
+    height: 365px;
     margin: 15px 70px;
     margin-bottom: 0;
 }
@@ -53,20 +53,18 @@ footer{
     float: left;
     width: 15%;
     height: 285px;
-    padding-top: 5px;
-    padding-right: 5px;
+    margin-right: 1%;
 }
 
 .two{
     float: left;
-    width: 70%;
+    width: 68%;
     height: 285px;
-    padding-top: 5px;
 }
 
 .tre{
     float: left;
     width: 15%;
     height: 285px;
-    padding-top: 5px;
+    margin-left: 1%;
 }
