@@ -49,22 +49,21 @@ footer{
     width: 100%;
 }
 
-.one{
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column{
     float: left;
     width: 15%;
     height: 285px;
-    margin-right: 1%;
 }
 
-.two{
+.column-2{
     float: left;
     width: 68%;
     height: 285px;
-}
-
-.tre{
-    float: left;
-    width: 15%;
-    height: 285px;
-    margin-left: 1%;
+    margin: 0 1%;
 }
